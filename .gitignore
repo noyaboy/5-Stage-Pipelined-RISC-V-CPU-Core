@@ -1,0 +1,74 @@
+# ===========================================
+# ICLAB Project .gitignore
+# 5-Stage Pipelined RISC-V CPU Core
+# ===========================================
+
+# ============ Simulation Outputs ============
+*.log
+*.fsdb
+*.vcd
+*.saif
+*.vpd
+*.key
+csrc/
+simv
+simv.daidir/
+DVEfiles/
+ucli.key
+novas.*
+register_sim.txt
+
+# ============ Synthesis Outputs =============
+SYN/netlist/
+SYN/report/
+SYN/report_*.out
+SYN/top_riscv_core/
+SYN/*.ddc
+SYN/*.sdc
+SYN/*.pvl
+SYN/*.syn
+SYN/alib-52/
+SYN/command.log
+SYN/default.svf
+
+# ============ APR Outputs ===================
+APR/netlist/
+APR/*.sdf
+APR/innovus.log*
+APR/*.rpt
+APR/*.summary
+APR/*.png
+APR/timingReports/
+APR/*.enc*
+APR/checkDesign/
+
+# ============ LEC Outputs ===================
+LEC/*/lec.log
+LEC/*/*.rpt
+
+# ============ PrimeTime Outputs =============
+APR/PT/*/report_*.rpt
+
+# ============ Generated Test Patterns =======
+SW/TP/assem/assem_dec/
+SW/TP/assem/assem_inter/
+SW/TP/decoder/
+SW/TP/interpreter/
+
+# ============ Binary/Platform Files =========
+SW/chromedriver.exe
+SW/*.exe
+*.exe
+
+# ============ Misc Files ====================
+misc.txt
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
+# ============ Python =======================
+__pycache__/
+*.pyc
+.venv/
+venv/

@@ -1,0 +1,16 @@
+../RTL/hdl/Def.v
+../RTL/hdl/top_riscv_core.v
+../RTL/hdl/Icache.v
+../RTL/hdl/Control.v
+../RTL/hdl/ALU.v
+../RTL/hdl/imm_gen.v
+../RTL/hdl/EX_M.v
+../RTL/hdl/Dcache.v
+../RTL/hdl/ID_EX.v
+../RTL/hdl/IF_ID.v
+../RTL/hdl/regfile.v
+../RTL/hdl/PC.v
+../RTL/hdl/M_RB.v
+../RTL/hdl/forward_unit.v
+../RTL/hdl/nop_mux.v
+../RTL/hdl/stall_unit.v
